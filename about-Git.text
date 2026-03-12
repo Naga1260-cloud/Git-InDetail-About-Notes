@@ -1,0 +1,42 @@
+Version Control System :
+
+* track changes
+* collabrate code without conflicts
+* rollback to previous code
+* maintains complete history
+
+Architecture of VCS
+
+* local vcs : ex:git
+
+* central vcs : ex : github
+
+* distributed vcs : ex: git + github
+
+
+How to install git on various machine
+ 
+* sudo apt-get install git -y
+
+* sudo yum install git -y
+
+* git --version
+
+
+How to Configure git
+
+* git init
+
+* git config --global init.defaultBranch main
+
+* git config --global user.name "Naga1260-cloud"
+
+* git config --global user.email "yaram.nlakshmi@gmail.com"
+
+* git config --global code.editor "vi"
+
+* git config --list
+
+
+* PS1="Git $ "
+
