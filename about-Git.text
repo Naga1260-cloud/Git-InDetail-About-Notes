@@ -40,3 +40,32 @@ How to Configure git
 
 * PS1="Git $ "
 
+Steps to configure a local Git repo to push to GitHub over HTTPS
+
+ In local
+* create a folder and inialise empty git repo with
+	 $ git init
+* add files and do commit 
+	$ git add .
+
+	$ git commit -m "Initial commit" 
+* Configure the git using 
+	$ git config  
+* In github account create a repo
+
+	$ git remote add origin https://github.com/USERNAME/REPO.git
+	$ git remote -v
+	$ git branch -M main
+	$ git push -u origin main
+* For HTTPS authentication IN GITHUB ACCOUNT
+
+	account -> settings -> developer settings -> personal access tokens -> classic -> generate new token
+
+* for http authentication in Local 
+	$ https://github.com/USERNAME/REPO.git
+	$ git remote set-url origin https://github.com/Naga1260-cloud/Git-InDetail-About-Notes.git
+ 	$  git push --set-upstream origin main
+	$ git status
+
+
+
