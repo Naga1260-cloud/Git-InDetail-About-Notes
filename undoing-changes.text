@@ -1,1 +1,7 @@
-
+undoing changes:
+1. git checkout
+2. git reset :move the head point to a different commit
+    a. --safe
+    b. --mixed
+    c. --hard
+3. git revert
