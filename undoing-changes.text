@@ -1,7 +1,10 @@
 undoing changes:
 1. git checkout
 2. git reset :move the head point to a different commit
-    a. --safe
-    b. --mixed
-    c. --hard
-3. git revert
+    a. --soft : soft will put you stageing area --> modified -->commit
+    b. --mixed : modified -->commit
+    c. --hard : directly goes to that particular commit id
+
+3. git restore: goes to modified area 
+    $ git restore --stage <fname>
+    
