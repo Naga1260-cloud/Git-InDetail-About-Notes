@@ -84,3 +84,15 @@ Steps to configure a local Git repo to push to GitHub over SSH key access (use S
 	$ git remote set-url origin git@github.com:USERNAME/REPO.git
 	$ Push: git push --set-upstream origin main
 
+Git Concepts
+
+Git is a distributed version control system(dvcs) used to track changes in source code during software development.
+* git must be installed first
+* git init to initialise empty repo
+
+Git life cycle:
+new file --> untracked --> staged --> commited
+Modified file -->staged --> commited
+$ git add filename
+$ git commit -m "msg to commit"
+
