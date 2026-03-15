@@ -74,7 +74,7 @@ Steps to configure a local Git repo to push to GitHub over SSH key access (use S
 	$ ls -al ~/.ssh/id_*.pub
 * If none, create one:
 	$  ssh-keygen -t ed25519 -C "your_email@example.com"
-
+* hv to recheck
 * Copy the public key and add it to your GitHub account (Settings → SSH and GPG keys):
 	$  cat ~/.ssh/id_ed25519.pub
 * Test the SSH connection: 
