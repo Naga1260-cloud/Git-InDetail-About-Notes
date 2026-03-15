@@ -1,1 +1,6 @@
+Branching in Git
 
+$ git branch branchname : To create a branch
+$ git branch : To see list of branches
+$ git checkout -b <branch name> : To create and log into that branch
+$ git branch <branch name> : to go to that branch
