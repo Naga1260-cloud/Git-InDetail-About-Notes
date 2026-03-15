@@ -8,4 +8,7 @@ $ git branch <branch name> : to go to that branch
 branching types in git
 
 * fast forwarding merge
+	feature1 branch content directly added to main branch meanwhile no content added in main branch
 * 3 way merge
+	feature1 branch content directly added to main branch meanwhile some content  added in main branch so merge conflicts will occur
+	we have to check the content and merge them
