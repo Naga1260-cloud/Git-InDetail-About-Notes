@@ -96,3 +96,5 @@ Modified file -->staged --> commited
 $ git add filename
 $ git commit -m "msg to commit"
 
+git branch
+* git branch <branch name > : to cr* git branch <branch name > : to cr a new b* git branch <branch name > : to create a new branch
